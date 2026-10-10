@@ -24,7 +24,6 @@ import com.ctre.phoenix6.swerve.SwerveModuleConstants.DriveMotorArrangement;
 import com.ctre.phoenix6.swerve.SwerveModuleConstants.SteerFeedbackType;
 import com.ctre.phoenix6.swerve.SwerveModuleConstants.SteerMotorArrangement;
 import com.ctre.phoenix6.swerve.SwerveModuleConstantsFactory;
-
 import edu.wpi.first.math.Matrix;
 import edu.wpi.first.math.numbers.N1;
 import edu.wpi.first.math.numbers.N3;
@@ -118,7 +117,7 @@ public class TunerConstants {
 
   private static final double kDriveGearRatio = 7.673684210526316;
   private static final double kSteerGearRatio = 12.1;
-  private static final Distance kWheelRadius = Inches.of(2);
+  private static final Distance kWheelRadius = Inches.of(2.236);
 
   private static final boolean kInvertLeftSide = false;
   private static final boolean kInvertRightSide = true;
